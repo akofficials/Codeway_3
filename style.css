@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background-image: url('https://res.cloudinary.com/dmjgj2enf/image/upload/v1709997727/h4ir9zur5fdwgh0ndosz.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+}
+
+.logo {
+    padding-left: 25vh;
+
+}
+
+.img {
+    height: 10vh;
+}
+
+._button {
+    text-align: center;
+    padding-left: 20vh;
+}
+
+.bt {
+    background-color: transparent;
+    margin: 5vh;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.bt:hover {
+    color: green;
+}
+
+.sign_up {
+    margin: 5vh;
+    padding: 10px;
+    border-radius: 50px;
+    border: 0px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.sign_up:hover {
+    background-color: green;
+}
+
+.h1 {
+    padding-top: 5vh;
+    padding-left: 25vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.h2 {
+    padding-left: 25vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15vh;
+}
+
+.p1 {
+    padding-left: 25vh;
+    line-height: 25px;
+    color: green;
+}
+
+
+.book_now {
+    text-align: center;
+    padding-top: 10vh;
+    justify-content: center;
+}
+
+.book_now1 {
+    background-color: skyblue;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    border: 0px;
+}
+
+.book_now1:hover {
+    background-color: green;
+}
+
+.media-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 20vh;
+}
+
+.media-icons a {
+    position: relative;
+    color: black;
+    font-size: 25px;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.media-icons a:not(:last-child) {
+    margin-right: 60px;
+}
+
+.media-icons a:hover {
+    transform: scale(1.5);
+    color: green;
+}
